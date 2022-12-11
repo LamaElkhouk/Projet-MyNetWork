@@ -1,0 +1,107 @@
+{
+  "utilisateurs": [
+    {
+      "id": 1,
+      "pseudo": "Alain",
+      "email": "alain@yahoo.fr",
+      "password": "123456",
+      "urlImgProfil": "https://thispersondoesnotexist.com/image"
+    },
+    {
+      "id": 2,
+      "pseudo": "Béatrice",
+      "email": "bea@yahoo.fr",
+      "password": "123456",
+      "urlImgProfil": "https://thispersondoesnotexist.com/image"
+    },
+    {
+      "pseudo": "teste1",
+      "email": "teste1@gmail.com",
+      "password": "azerty",
+      "urlImgProfil": "https://thispersondoesnotexist.com/image",
+      "id": 4
+    },
+    {
+      "pseudo": "teste2",
+      "email": "teste2@gmail.com",
+      "password": "azerty",
+      "urlImgProfil": "",
+      "id": 5
+    },
+    {
+      "pseudo": "teste3",
+      "email": "teste3@gmail.com",
+      "password": "azerty",
+      "urlImgProfil": "",
+      "id": 7
+    },
+    {
+      "pseudo": "teste4",
+      "email": "teste4@gmail.com",
+      "password": "azerty",
+      "urlImgProfil": "",
+      "id": 8
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "contenu": "Contenu article 1",
+      "urlImgArticle": "https://source.unsplash.com/random/1000x300",
+      "like": 2,
+      "pseudo": "Alain",
+      "date": 1649277945051,
+      "commentaires": [
+        {
+          "id": 1,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        },
+        {
+          "id": 2,
+          "contenu": "lorem ipsum",
+          "pseudo": "Didier",
+          "dt": 1649277945051
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "contenu": "Contenu article 2",
+      "urlImgArticle": "https://source.unsplash.com/random/1000x300",
+      "like": 4,
+      "pseudo": "Alain",
+      "date": 1649277945051,
+      "commentaires": [
+        {
+          "id": 1,
+          "contenu": "lorem ipsum",
+          "pseudo": "Béatrice",
+          "dt": 1649277945051
+        },
+        {
+          "id": 2,
+          "contenu": "lorem ipsum",
+          "pseudo": "Didier",
+          "dt": 1649277945051
+        },
+        {
+          "id": 3,
+          "contenu": "lorem ipsum",
+          "pseudo": "didiette",
+          "dt": 1649277945051
+        }
+      ]
+    },
+    {
+      "contenu": "contenu article 3 ",
+      "urlImgArticle": "https://source.unsplash.com/random/1000x300",
+      "like": 0,
+      "pseudo": "teste3",
+      "date": 1649277945051,
+      "commentaires": [],
+      "id": 3
+    }
+  ]
+}
